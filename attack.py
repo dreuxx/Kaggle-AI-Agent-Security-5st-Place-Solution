@@ -132,12 +132,12 @@ def _alpha_label(i: int) -> str:
 
 def _gpt_email_recipient(i: int) -> str:
     """Use compact numeric recipients for GPT's measured Harmony path."""
-    return f"{int(i)}@corp.invalid"
+    return f"{int(i)}" #@corp.invalid
 
 
 def _gemma_email_recipient(i: int) -> str:
     """Use Gemma's measured short-token label remapping without URL syntax."""
-    return f"{_gemma_url(i).removeprefix('://')}@corp.invalid"
+    return f"{_gemma_url(i).removeprefix('://')}" #@corp.invalid
 
 
 # ---------------------------------------------------------------------------
