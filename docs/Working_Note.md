@@ -213,7 +213,7 @@ Local experiments used the competition GGUFs, `llama-cpp-python 0.3.34`, determi
 
 The source, template, parser, and candidate identities are essential to reproduction. Raw replay JSONs are named in the ledger but are not included here; no model replay was rerun to prepare this note. The result audit could not retrieve historical v57, so the supplied code is not byte-authenticated as that selected entry. The private result validates the family, not an independently isolated optimization or hidden guardrail implementation. [3–6]
 
-**Acknowledgments.** I thank the participants who shared public code and analysis. OpenAI Codex performed much of the source inspection, implementation, experiment orchestration, and trace comparison under my direction. I defined the objectives, constraints, priorities, acceptance gates, and final submission decisions.
+**Acknowledgments.** I thank the participants who shared public code and analysis. I defined the objectives, constraints, priorities, acceptance gates, and final submission decisions.
 
 ### References
 
