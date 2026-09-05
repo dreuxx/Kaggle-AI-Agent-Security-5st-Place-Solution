@@ -1,7 +1,5 @@
 # AI Agent Security — 5th Place Solution
 
-**Giovanny Rodríguez · Solo gold medal · Kaggle, 2026**
-
 [Working Note](docs/Working_Note.md) · [PDF](docs/Working_Note.pdf) · [Code](attack.py) · [Selected experiments](experiments/README.md) · [Reproducibility](docs/REPRODUCIBILITY.md)
 
 > **The public attack already worked. My problem was how long it took to replay.**
