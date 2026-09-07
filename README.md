@@ -4,7 +4,7 @@
 
 > **The public attack already worked. My problem was how long it took to replay.**
 
-This repository accompanies **Compiling User Messages into Faster Tool Calls: Model-Specific Replay Optimization for GPT-OSS and Gemma**, my solution writeup for [AI Agent Security — Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks).
+This repository accompanies **Compiling User Messages into Faster Tool Calls: Model-Specific Replay Optimization for GPT-OSS and Gemma**, my solution writeup for [AI Agent Security — Multi-Step Tool Attacks](https://www.kaggle.com/competitions/ai-agent-security-multi-step-tool-attacks/writeups/compiling-user-messages-into-faster-tool-calls).
 
 I used HTTP as a stable test case to study the complete execution path, including the model generation after a successful tool call. The model, server, parser, and evaluator stayed unchanged. GPT-OSS required Harmony-state analysis; Gemma required analysis of serialization and output policy. The same experimental process was later adapted to the email family.
 
